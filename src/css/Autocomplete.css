@@ -1,0 +1,184 @@
+.menu {
+    box-shadow: 0 0.05rem 0.2rem rgba(33, 33, 33, 0.3);
+    background: #f4f4f4;
+    border-radius: 0.1rem;
+    list-style: none;
+    margin: 0;
+    min-width: 180px;
+    padding: 0.4rem;
+    transform: translateY(0.2rem);
+    z-index: 300; }
+    .menu.menu-nav {
+      background: transparent;
+      box-shadow: none; }
+    .menu .menu-item {
+      margin-top: 0;
+      padding: 0;
+      text-decoration: none;
+      user-select: none; }
+      .menu .menu-item > a {
+        border-radius: 0.1rem;
+        color: inherit;
+        display: block;
+        margin: 0 -0.4rem;
+        padding: 0.2rem 0.4rem;
+        text-decoration: none; }
+        .menu .menu-item > a:focus, .menu .menu-item > a:hover {
+          background: #0078d4;
+          color: #f2c811; }
+        .menu .menu-item > a:active, .menu .menu-item > a.active {
+          background: #0078d4;
+          color: #f2c811; }
+      .menu .menu-item .form-checkbox,
+      .menu .menu-item .form-radio,
+      .menu .menu-item .form-switch {
+        margin: 0.1rem 0; }
+      .menu .menu-item + .menu-item {
+        margin-top: 0.2rem; }
+      .menu .menu-item > button {
+        font-size: 13px;
+        display: flex;
+        width: 100%;
+        padding: 6px 12px;
+        justify-content: flex-start;
+        background-color: transparent;
+        text-align: left;
+        border: 0;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column; }
+        .menu .menu-item > button:hover {
+          color: #333;
+          background: #f4f4f4;
+          outline: 0; }
+        .menu .menu-item > button:focus {
+          outline: 0; }
+        .menu .menu-item > button.active, .menu .menu-item > button:active {
+          background: #d4ecff; }
+        .menu .menu-item > button .label-text {
+          font-size: 14px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          text-align: left; }
+        .menu .menu-item > button .label-desc {
+          font-size: 11px;
+          color: #989898;
+          line-height: 16px; }
+    .menu .menu-badge {
+      float: right;
+      padding: 0.2rem 0; }
+      .menu .menu-badge .btn {
+        margin-top: -0.1rem; }
+  
+  .form-auto-complete {
+    position: relative;
+    appearance: none;
+    border-radius: 0.1rem;
+    color: inherit;
+    font-size: 0.6rem;
+    min-height: 1.8rem;
+    line-height: 1.2rem;
+    outline: none;
+    margin-top: 0.4rem;
+    vertical-align: middle;
+    width: 100%;
+    background: transparent; }
+    .form-auto-complete:hover {
+      border-color: #333333; }
+    .form-auto-complete:focus {
+      border-color: #0078d4; }
+    .form-auto-complete::-ms-expand {
+      display: none; }
+    .form-auto-complete.select-sm {
+      font-size: 11px;
+      height: 1.4rem;
+      padding: 0.05rem 1.1rem 0.05rem 0.3rem; }
+    .form-auto-complete.select-lg {
+      font-size: 16px;
+      height: 2rem;
+      padding: 0.35rem 1.4rem 0.35rem 0.6rem; }
+    .form-auto-complete[size], .form-auto-complete[multiple] {
+      height: auto;
+      padding: 0.25rem 0.4rem; }
+      .form-auto-complete[size] option, .form-auto-complete[multiple] option {
+        padding: 0.1rem 0.2rem; }
+    .form-auto-complete:not([multiple]):not([size]) {
+      background: transparent url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMzJweCIgaGVpZ2h0PSIzMnB4Ij48ZyBpZD0ic3VyZmFjZTEiPjxwYXRoIHN0eWxlPSIgIiBkPSJNIDE5IDMgQyAxMy40ODgyODEgMyA5IDcuNDg4MjgxIDkgMTMgQyA5IDE1LjM5NDUzMSA5LjgzOTg0NCAxNy41ODk4NDQgMTEuMjUgMTkuMzEyNSBMIDMuMjgxMjUgMjcuMjgxMjUgTCA0LjcxODc1IDI4LjcxODc1IEwgMTIuNjg3NSAyMC43NSBDIDE0LjQxMDE1NiAyMi4xNjAxNTYgMTYuNjA1NDY5IDIzIDE5IDIzIEMgMjQuNTExNzE5IDIzIDI5IDE4LjUxMTcxOSAyOSAxMyBDIDI5IDcuNDg4MjgxIDI0LjUxMTcxOSAzIDE5IDMgWiBNIDE5IDUgQyAyMy40Mjk2ODggNSAyNyA4LjU3MDMxMyAyNyAxMyBDIDI3IDE3LjQyOTY4OCAyMy40Mjk2ODggMjEgMTkgMjEgQyAxNC41NzAzMTMgMjEgMTEgMTcuNDI5Njg4IDExIDEzIEMgMTEgOC41NzAzMTMgMTQuNTcwMzEzIDUgMTkgNSBaICIvPjwvZz48L3N2Zz4=) no-repeat right 0.35rem center/0.9rem 1rem; }
+  
+  .has-success .form-auto-complete, .form-auto-complete.is-success {
+    background: #fdfef2;
+    border-color: #bad80a; }
+    .has-success .form-auto-complete:focus, .form-auto-complete.is-success:focus {
+      box-shadow: 0 0 0 0.1rem rgba(186, 216, 10, 0.2); }
+  
+  .has-error .form-auto-complete, .form-auto-complete.is-error {
+    background: white;
+    border-color: #e81123;
+    color: #e81123; }
+    .has-error .form-auto-complete:focus, .form-auto-complete.is-error:focus {
+      box-shadow: 0 0 0 0.1rem rgba(232, 17, 35, 0.2); }
+  
+  .form-auto-complete:disabled, .form-auto-complete.disabled {
+    background-color: #f7f7f7 !important;
+    cursor: not-allowed;
+    opacity: .5; }
+  
+  .form-auto-complete .menu {
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    margin-top: 2px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    max-height: 190px;
+    background-color: #ffffff; }
+    .form-auto-complete .menu.hidden {
+      visibility: hidden; }
+    .form-auto-complete .menu.visible {
+      visibility: visible; }
+    .form-auto-complete .menu.top {
+      bottom: 115%; }
+  
+  .form-auto-complete .selected {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 27px;
+    justify-content: flex-start;
+    max-height: 54px;
+    overflow: auto; }
+  
+  .form-auto-complete .chip {
+    background-color: #f4f4f4;
+    color: #212121;
+    border-radius: 0;
+    display: inline-block;
+    padding: 0px 8px 0 8px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    margin-bottom: 3px; }
+    .form-auto-complete .chip:hover {
+      background-color: #dbdbdb;
+      cursor: pointer; }
+  
+  .form-auto-complete button.btn-close {
+    background: none;
+    border: 0;
+    padding: 0;
+    line-height: 10px;
+    padding-left: 8px; }
+    .form-auto-complete button.btn-close:hover {
+      cursor: pointer; }
+    .form-auto-complete button.btn-close:hover, .form-auto-complete button.btn-close:active, .form-auto-complete button.btn-close:focus {
+      outline: 0;
+      box-shadow: none; }
+  
+  .form-auto-complete i.icon {
+    line-height: 10px; }
+  
